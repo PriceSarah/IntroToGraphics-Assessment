@@ -50,5 +50,6 @@ void main()
 	//Add texture and color
 	TextureColor = texture(diffuseTexture, vTexCoord) + vColor;
 
+	//Helps create a cool, spooky effect
 	FragColor = (LightColor / 2) + (TextureColor / 3);
 }

@@ -143,6 +143,7 @@ bool Game::start()
 		0.0f, 0.0f, 0.0f, 1.0f
 	};
 
+	//Turns the light a deep red
 	m_light.setAmbient({ 0.66f, 0.0f, 0.0f });
 	m_light.setDiffuse({ 0.66f, 0.0f, 0.0f });
 	m_light.setSpecular({ 0.66f, 0.0f, 0.0f });
